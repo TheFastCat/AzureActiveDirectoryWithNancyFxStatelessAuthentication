@@ -5,9 +5,16 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{DF731B6F-41F4-4887-B65F-83296CE4B67A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3BC4C0F-F966-4972-9BCA-78EE64924297}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{92C5297C-F05F-4326-BCFD-87DB0F7D03D6}"
 	ProjectSection(SolutionItems) = preProject
-		..\README.md = ..\README.md
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E4416A5-CB28-47E2-899A-D98E3F71C839}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\repe\Documents\GitHub\AzureActiveDirectoryWithNancyFxStatelessAuthentication\README.md = ..\..\Users\repe\Documents\GitHub\AzureActiveDirectoryWithNancyFxStatelessAuthentication\README.md
 	EndProjectSection
 EndProject
 Global

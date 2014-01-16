@@ -9,6 +9,8 @@ namespace WebApp
         public UserIdentity(UserInfo userInfo)
         {
             UserName = userInfo.UserId;
+            // ignore Claims for now -- haven't received any help from the Nancy boys on how this should be used
+            // to map claims provided via ADAL
         }
 
         public string UserName { get; set; }
