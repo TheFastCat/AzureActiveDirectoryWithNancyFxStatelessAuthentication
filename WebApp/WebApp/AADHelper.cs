@@ -89,6 +89,7 @@ namespace WebApp
             /// <summary>
             /// This is the 'secret' configured within AAD to associate the calling code with the configured application
             /// </summary>
+            /// <remarks>you will have to update this with one specific to your own AAD tenant/application</remarks>
             public static readonly string CLIENT_KEY
                 = "ZOWtcEqRx9SjQTvq6qDrRnnZV4+UdaxzbULw00gwUH4=";
         }
