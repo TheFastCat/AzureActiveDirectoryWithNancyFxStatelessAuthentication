@@ -10,3 +10,6 @@ I have added additional (VERBOSE) commenting to the code here that does not appe
 Also additional, contextual links to outside resources are added to aid those in the trenches. 
 
 Feedback is appreciated via my twitter handle http://twitter.com/ReidPeryam
+
+This application is predicated on a valid Azure Active Directory tenant configuration. 
+See the AADHelper.cs for the consumed values that can be swapped with your own. 

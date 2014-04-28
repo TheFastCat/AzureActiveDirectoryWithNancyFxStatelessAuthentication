@@ -36,7 +36,7 @@ namespace WebApp
                     // else allow request to continue unabated
                     : null;
             };
-            // route useful for demonstrating secured routes redirect unauthorized users to /login => (ane then back to) => "/"
+            // route useful for demonstrating secured routes are configured redirect unauthenticated users to /login => (and afterward then back to) => "/Authenticated"
             Get["/Private"] = _ =>
             {
                 return "Secret stuff!";
