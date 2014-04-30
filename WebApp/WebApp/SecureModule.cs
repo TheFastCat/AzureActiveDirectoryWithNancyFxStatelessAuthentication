@@ -21,7 +21,7 @@ namespace WebApp
                 if (ctx.Request.Query.error.HasValue)
                 {
                     string errorDesc = 
-                        string.Format("{0}\n\n{1}\n\n{2}",
+                        string.Format("{0}\n\n{1}\n\n",
                         ctx.Request.Query.error,
                         ctx.Request.Query.error_description);
 
