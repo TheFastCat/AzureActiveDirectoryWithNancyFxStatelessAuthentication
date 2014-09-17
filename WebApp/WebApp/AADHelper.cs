@@ -51,21 +51,21 @@ namespace WebApp
             ///
             /// the TENANT_ID appears sandwiched within the various end point urls
             /// </summary>
-            public static readonly string TENANT_ID  
-                = "f721817b-99eb-4505-b220-850208ab5dd7";
+            public static readonly string TENANT_ID
+                = "[YOUR TENANT ID HERE]"; // eg f921887b-99eb-4505-b420-850208ac5dd7
             /// <summary>
             ///  this is the 'clientID' associated with THIS application (which in our case is a web app client, not a native client), 
             ///  as configured within Azure Active Directory, and associated as a client for the resource (we want to access).
             ///  AAD uses this to identify the client application.
             /// </summary>
             public static readonly string CLIENT_ID
-                = "2e427f98-139b-4e41-a23b-c13f53f0d155";
+                = "[YOUR CLIENT ID HERE]"; // eg "2e437f98-239b-4e31-a23b-c13d53f0d155
             /// <summary>
             /// 'APP ID URI' of resource we want to access, as configured within Azure Active Directory (and associated as a resource for THIS application (the client application))
             /// AAD uses this to identify the resource application.
             /// </summary>
-            public static readonly string APP_ID_URI 
-                = "https://SalesApplication.onmicrosoft.com/WebAppResource";
+            public static readonly string APP_ID_URI
+                = "[YOUR API ID URI HERE]"; // eg Https://SalesApplication.onmicrosoft.com/WebApplication
             /// <summary>
             /// reply url to send the authorization code  :
             ///
@@ -91,7 +91,7 @@ namespace WebApp
             /// </summary>
             /// <remarks>you will have to update this with one specific to your own AAD tenant/application</remarks>
             public static readonly string CLIENT_KEY
-                = "ZOWtcEqRx9SjQTvq6qDrRnnZV4+UdaxzbULw00gwUH4=";
+                = "[YOUR CLIENT KEY]"; // eg ZqWtcEqRx9SjQTvq6qDRRxnZV4+UdamzcULw00gwUH4=
         }
 
         /// <summary>
